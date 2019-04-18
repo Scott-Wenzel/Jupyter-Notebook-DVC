@@ -2,7 +2,6 @@
 
 A minimalistic integration of DVC with a simple Jupyter Notebook.
 Using this guideline, you can keep working in a notebook while enjoying most of the benefits of data and model versioning.
-For more information, see the README in the example project.
 
 ## Instructions
 
