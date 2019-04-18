@@ -1,0 +1,14 @@
+cmd: echo "This is the model evalualtion stage" >&2 && exit 1
+deps:
+- md5: 62e60cfacc638ead57637dc9e34c7268.dir
+  path: models
+md5: b4a832eaf26dd32827d21ca1ba58b348
+outs:
+- cache: false
+  md5: 323a6f745a4a0c26a9353616785481e8
+  metric:
+    type: json
+    xpath: loss
+  path: metrics/metrics.json
+  persist: false
+wdir: .

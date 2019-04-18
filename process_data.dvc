@@ -1,0 +1,12 @@
+cmd: echo "This is the data processing stage" >&2 && exit 1
+deps:
+- md5: 04d53798ff7017d8749ea065911b5c51.dir
+  path: data/raw
+md5: 59cf0d9bfee6635d5513844b709c897f
+outs:
+- cache: true
+  md5: 01fe90153048b85be7638d3780aac84f.dir
+  metric: false
+  path: data/processed
+  persist: false
+wdir: .

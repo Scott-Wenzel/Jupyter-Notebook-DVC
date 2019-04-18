@@ -1,0 +1,12 @@
+cmd: echo "This is the model training stage" >&2 && exit 1
+deps:
+- md5: 01fe90153048b85be7638d3780aac84f.dir
+  path: data/processed
+md5: f9c10b09cdd63f3c23de4b015d521b15
+outs:
+- cache: true
+  md5: 62e60cfacc638ead57637dc9e34c7268.dir
+  metric: false
+  path: models
+  persist: false
+wdir: .
